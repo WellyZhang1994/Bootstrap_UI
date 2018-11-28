@@ -6,6 +6,7 @@ div{
 	padding: 0;
 }
 
+
 /*--區域分色--*/
 .grid-1{
 	background-color:#ffffff;
@@ -17,7 +18,7 @@ div{
 }
 .grid-3{
 	background-color:#ffffff; 
-	height:400px; 
+	height:300px; 
 }
 .grid-4{
 	background-color:#ffffff;
@@ -32,6 +33,76 @@ div{
 	height:150px;  
 }
 .grid-7{
+	background-color: #009100;
+	height:30px;
+	text-align: center;
+	color: white;
+	font-size:16px;
+}
+
+.grid-0{
 	background-color:#ffffff;
-	height:100px;  
+	height:50px;  
+}
+
+.grid-8{
+	height:50px;  
+}
+.grid-9{
+	height:50px;  
+	width:90%;
+}
+
+.grid-10{
+	font-size: 20px;
+	height:350px;  
+}
+
+.grid-11{
+	font-size: 20px;
+	height:250px;  
+}
+
+.navbar-default{
+	background-color:#009100;
+}
+
+.btnn{
+	border-radius: 5px;
+	border-color: #009100;
+	background-color: #009100;
+	color: white;
+	width: 130%;
+	height: 70%;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.ct{
+	font-size: 16px;;
+	border-radius: 15px;
+	background-color: #009100;
+	width:8%;
+}
+
+.txt_top{
+	color: white;
+}
+
+.toptitle{
+	height: 10%;
+	width: 50%;
+	border-radius: 2px;
+	border-left: 5px solid green;
+}
+
+.tdstring{
+	font-size: 16px;
+}
+
+.labelstring{
+	font-size: 16px;
+}
+
+.page-footer{
 }

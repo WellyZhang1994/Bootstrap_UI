@@ -11,41 +11,34 @@
       <script src="bootstrap/js/bootstrap.min.js"></script>	
     <!-- 自己的css -->
       <link rel="stylesheet" href="css/style.css">
- 
+
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <!--針對畫面尺寸會變化下-->
+    <div class="container">
+        <!--Header -->
         <div class="row">
+          <div class="col-lg-12 grid-0">
+          </div>   
+        </div>
 
+        <div class="row">
           <!--logo-->
-          <div class="col-xs-3 col-lg-1 grid-1">
-              <img src="images/cathay.png" style="width:90%;"> 
+          <div class="col-xs-3 col-lg-2 grid-1">
+              <img src="images/logo.png" style="width:180px;"> 
           </div>
 
           <!--menu-->
-          <div class="col-xs-9 col-lg-11 grid-2">
+          <div class="col-xs-9 col-lg-10 grid-2">
               <nav class="navbar navbar-default">
                   <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand" href="#">系統首頁</a>
-                    </div>
-                
-                    <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">個人總覽 <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">專區列表</a></li>
+                        <li ><a href="#" style="color:white; font-size:16px; font-weight:bold;">系統首頁</a></li>
+                        <li ><a href="#" style="color:white; font-size:16px; font-weight:bold;">個人總覽</a></li>
+                        <li ><a href="#" style="color:white; font-size:16px; font-weight:bold;">專區列表</a></li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">說明 <span class="caret"></span></a>
+                          <a href="#" style="color:white; font-size:16px;font-weight:bold;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">說明 <span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -57,16 +50,16 @@
                           </ul>
                         </li>
                       </ul>
-                      <form class="navbar-form navbar-left">
+                      <form class="navbar-form navbar-right">
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-default">搜尋</button>
                       </form>
                       <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">我的帳號</a></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">設定 <span class="caret"></span></a>
+                        <li ><a href="#" style="color:white; font-size:16px; font-weight:bold;">我的帳號</a></li>
+                        <li class="dropdown navfont">
+                          <a href="#" style="color:white; font-size:16px; font-weight:bold;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">設定 <span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -79,25 +72,172 @@
                     </div><!-- /.navbar-collapse -->
                   </div><!-- /.container-fluid -->
                 </nav>
-
-
           </div>
         </div>	
         <div class="row">
-          <div class="col-xs-3 grid-3">內容</div>
-          <div class="col-xs-6 grid-3">
-              Test
-
+          <div class="col-lg-3 grid-3">
+             <img src="images/sidebar_left.jpg" style="width:90%;"> 
           </div>
-          <div class="col-xs-3 grid-3">內容</div>
-        </div>		
+          <div class="col-lg-7 grid-3">
+             <img src="images/center.jpg" style="width:100%;"> 
+          </div>
+          <div class="col-lg-2 grid-3">
+            <div class="row">
+               <div class="col-lg-12 ">
+               <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                  <h5 class="card-title">我的下次休假時間</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+             </div>
+            </div>
+             <div class="row">
+                <div class="col-lg-6 grid-8">
+                     <button type="button" class="btnn">請假</button>
+                </div>
+                <div class="col-lg-6 grid-8">
+                    <button  type="button" class="btnn">特休變更</button>
+                </div>
+            </div>
+             <div class="row">
+              <div class="col-lg-12 grid-9">
+               <button  type="button" class="btnn">申請外出</button>
+             </div>
+            </div>
+          </div>
+         </div>		
         <div class="row">
-          <div class="col-xs-12 col-sm-4 grid-4">區塊1</div>
-          <div class="col-xs-12 col-sm-4 grid-6">區塊2</div>
-          <div class="col-xs-12 col-sm-4 grid-5">區塊3</div>
-        </div>		
+          <div class="col-xs-12 col-sm-6 grid-10">
+            <table class="table table-striped">
+               <div>
+                <tr>
+                  <p class="toptitle">最新消息</p>
+                </tr>
+              </div>
+              <tbody>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Mark</td>
+                </tr>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Jacob</td>
+                </tr>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Larry</td>
+                </tr>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Larry</td>
+                </tr>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Larry</td>
+                </tr>
+                <tr>
+                  <td class="ct"> <span class="txt_top">TOP</span> </td>
+                  <td>Larry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 grid-10">
+                           <p class="toptitle">代辦事項</p>
+              <table class="table table-striped">
+              <thead>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="tdstring">業務審核批示</td>
+                  <td>
+                    <label class="labelstring">核心: 0 件 ;</label>
+                    <label class="labelstring">投資: 0 件 ;</label>
+                    <label class="labelstring">行政員工: 0 件</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tdstring">網站內容管理</td>
+                  <td>Test</td>
+                </tr>
+                <tr>
+                  <td class="tdstring">集團電子公文</td>
+                  <td>Test</td>
+                </tr>
+                <tr>
+                  <td class="tdstring">表單管理系統</td>
+                  <td>Test</td>
+                </tr>
+                <tr>
+                  <td class="tdstring">資訊作業申請系統</td>
+                  <td>Test</td>
+                </tr>
+                <tr>
+                  <td class="tdstring">簡覆表</td>
+                  <td>Test</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>	
+
+         <div class="row">
+          <div class="col-xs-12 col-sm-6 grid-11">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                   <p class="toptitle">最近公文查詢 107.11.27</p>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 grid-11">
+              <table class="table table-striped">
+              <thead>
+                <tr>
+                 <p class="toptitle">#</p>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>  
+
+
         <div class="row">
-          <div class="col-xs-12 grid-7">底部</div>
+          <div class="col-xs-12 grid-7">
+              © 2018 Copyright
+          </div>
         </div>	
       </div>		
 
